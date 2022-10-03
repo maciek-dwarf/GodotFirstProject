@@ -34,7 +34,7 @@ scale = Vector2( 0.641558, 0.590024 )
 curve = SubResource( 1 )
 
 [node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
-position = Vector2( -412.71, -326.269 )
+position = Vector2( -408, -338 )
 rotation = 0.00958547
 
 [connection signal="hit" from="Player" to="." method="game_over"]
